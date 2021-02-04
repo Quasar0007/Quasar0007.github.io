@@ -62,7 +62,7 @@ setInterval(() => {
         }, 1000)
         setTimeout(() =>{
             aniDur = parseFloat(window.getComputedStyle(obst, null).getPropertyValue('animation-duration'));
-            newDur = aniDur - 0.02;
+            newDur = aniDur - 0.01;
             obst.style.animationDuration = newDur + "s";
         },500)
     }
